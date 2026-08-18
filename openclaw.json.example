@@ -1,0 +1,11 @@
+{
+  "channels": {
+    "telegram": {
+      "accounts": {
+        "default": {
+          "token": "${TELEGRAM_BOT_TOKEN}"
+        }
+      }
+    }
+  }
+}

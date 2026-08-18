@@ -1,0 +1,28 @@
+# Live configuration and credentials
+openclaw.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+credentials/
+secrets/
+
+# Runtime state
+agents/
+memory/
+sessions/
+logs/
+backups/
+runtime/
+state/
+data/
+.openclaw/
+
+# Local planning and editor files
+.scratch/
+.DS_Store
+.idea/
+.vscode/
