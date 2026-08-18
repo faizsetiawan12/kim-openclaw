@@ -32,10 +32,11 @@ Workflow instructions and runtime permissions are different. A document can
 say an agent needs approval, while host permissions may still allow it to act.
 Review the actual runtime policy before enabling a role.
 
-This template does not claim sandboxing. Host-level command execution is a
-deliberate risk choice. Use sandboxing for shared or untrusted environments,
-and require explicit human approval for publishing, deployment, credentials,
-configuration, destructive actions, trading, and other external actions.
+This template does not claim sandboxing. Host-level YOLO execution means broad
+unattended permissions; it is a deliberate risk choice and is unsafe for
+shared or untrusted environments. Use sandboxing there, and require explicit
+human approval for publishing, deployment, credentials, configuration,
+destructive actions, trading, and other external actions.
 
 Never commit real configuration, credentials, chat identifiers, sessions,
 memories, logs, backups, or runtime state. Check `git status` before every
