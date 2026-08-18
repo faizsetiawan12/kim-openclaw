@@ -6,6 +6,13 @@ an owner's request into clear coordination, implementation, or research.
 KIM keeps one human decision-maker at the center. Agents can help move work
 forward, but consequential actions remain the owner's decision.
 
+## About KIM
+
+KIM is a holding group that builds products and explores research-led
+opportunities. This repository shows how KIM organizes a small AI team around
+clear responsibility: coordinate work well, implement deliberately, research
+carefully, and keep human judgment in control.
+
 ## The KIM team
 
 | Role | Responsibility |
