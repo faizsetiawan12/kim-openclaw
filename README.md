@@ -1,4 +1,7 @@
-# OpenClaw Team Template
+# KIM OpenClaw
+
+This repository belongs to KIM. It documents a personal OpenClaw multi-agent
+workspace design.
 
 A small, generic four-role team for an OpenClaw setup: Main, Chief, Engineer,
 and Research. It is a starting point for learning role separation and routing;
