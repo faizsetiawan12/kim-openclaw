@@ -1,15 +1,25 @@
 # KIM OpenClaw
 
-This repository belongs to KIM. It documents a personal OpenClaw multi-agent
-workspace design.
+This is KIM's personal multi-agent operating system: a focused team that turns
+an owner's request into clear coordination, implementation, or research.
 
-A small, generic four-role team for an OpenClaw setup: Main, Chief, Engineer,
-and Research. It is a starting point for learning role separation and routing;
-it is not a copy of a working installation.
+KIM keeps one human decision-maker at the center. Agents can help move work
+forward, but consequential actions remain the owner's decision.
 
-## What is included
+## The KIM team
 
-- Role documents with one purpose each.
+| Role | Responsibility |
+| --- | --- |
+| Main | Private dashboard assistant for the owner. |
+| Chief | KIM's coordinator: clarifies, routes, summarizes, and tracks open decisions. |
+| Engineer | Implements concrete Chief-routed work and reports progress. |
+| Research | Produces English-language research and analysis for human review. |
+
+This repository shares KIM's role design, not a live installation.
+
+## What KIM shares here
+
+- Role documents that keep KIM's responsibilities clear and non-overlapping.
 - A local Markdown issue workflow.
 - A Telegram configuration example using an environment variable placeholder.
 - Ignore rules that keep live state and credentials out of Git.
@@ -23,13 +33,17 @@ it is not a copy of a working installation.
    working configuration without reviewing it.
 5. Validate your local configuration with `openclaw config validate`.
 
-## Customize roles
+## Make KIM your own
 
 Start with `docs/agents/AGENTS.md`, then personalize each role's `USER.md`.
 Keep operating policy in `AGENTS.md`; keep tone in `SOUL.md`; keep tool notes
 in `TOOLS.md`; keep durable, non-sensitive summaries in `MEMORY.md`.
 
-## Safety
+Start small: define how your owner approves consequential work, customize the
+Chief's coordination style, and add specialist roles only when they earn a
+clear responsibility.
+
+## KIM safety principles
 
 Workflow instructions and runtime permissions are different. A document can
 say an agent needs approval, while host permissions may still allow it to act.
